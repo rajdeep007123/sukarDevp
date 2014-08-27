@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Login Sukar.com</title>
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/style_en.css" />
+	<link rel="stylesheet" href="css/staticPages_en" />
+	<script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+<header>
+    <!-- need to close this div -->
+    <div class="row">
+
+      <div class="show-for-small-only small-2 columns">
+        <a>
+          <img class="burger" src="http://cf5.sukarcdn.com/static/ltr/en/images/sukar/burger.png" alt="Menu"></a>
+      </div>
+
+      <div class="large-3 medium-3 small-3 columns padl-0">
+        <a href="">
+          <div id="logo" alt="SUKAR by SOUQ"></div>
+        </a>
+      </div>
+
+      <div class="show-for-small-only small-2 columns right">
+        <a href="http://www.sukar.com/ae-en/cart/">
+          <img class="cart-icon-mobile" src="http://cf2.sukarcdn.com/static/ltr/en/images/sukar/cart.png" alt="My Cart">
+          <span id="cart-qty" class="badge_red">1</span>
+        </a>
+      </div>
+
+      <div class="show-for-small-only small-2 columns right">
+        <a>
+          <img id="search_mobile" class="search-icon-mobile" src="http://cf2.sukarcdn.com/static/ltr/en/images/sukar/search.png" alt="Search"></a>
+      </div>
+
+      <div class="small-12 columns hide" id="search_input">
+        <div class="search right bor-black mob-ser">
+          <form id="searchFormMobile" action="http://www.sukar.com/ae-en/search.php?st=search" method="get">
+            <input type="hidden" name="st" value="search">
+            <input id="searchValueMobile" type="text" name="s" maxlength="90" tabindex="0" class="search_text" style="color: rgb(142, 141, 141);">
+            <span id="searcharrowMobile" class="search_arrow" title="Search">&nbsp;</span>
+          </form>
+        </div>
+      </div>
+
+		<!-- need to close this div -->
+      <div class="large-9 medium-9 right columns show-for-medium-up font-tahoma color-f1f1f1 padr-0">
+
+
+        <div class="header-links large-12 columns">
+          <ul class="right">
+            <li>
+              <a href="#" id="sign-in" class="sign-in">Sign In</a>
+            </li>
+
+            <li>
+              <a href="#" id="sign-up" class="sign-up">Register</a>
+            </li>
+
+            <li id="countryFlags">
+              Country
+              <span class="flags-icon selected flags-icon-ae"></span>
+              <ul class="flags-list shadow  bord-light-gray">
+                <li>
+                  <a href="http://www.sukar.com/sa-en/?c=sa">
+                    <span class="flags-icon flags-icon-sa"></span>
+                    <span class="flag-country">Saudi Arabia</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.sukar.com/ae-en/?c=jo">
+                    <span class="flags-icon flags-icon-jo"></span>
+                    <span class="flag-country">Jordan</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.sukar.com/ae-en/?c=eg">
+                    <span class="flags-icon flags-icon-eg"></span>
+                    <span class="flag-country">Egypt</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.sukar.com/ae-en/?c=kw">
+                    <span class="flags-icon flags-icon-kw"></span>
+                    <span class="flag-country">Kuwait</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.sukar.com/ae-en/?c=om">
+                    <span class="flags-icon flags-icon-om"></span>
+                    <span class="flag-country">Oman</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.sukar.com/ae-en/?c=qa">
+                    <span class="flags-icon flags-icon-qa"></span>
+                    <span class="flag-country">Qatar</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.sukar.com/ae-en/?c=bh">
+                    <span class="flags-icon flags-icon-bh"></span>
+                    <span class="flag-country">Bahrain</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://www.sukar.com/ae-en/?c=lb">
+                    <span class="flags-icon flags-icon-lb"></span>
+                    <span class="flag-country">Lebanon</span>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+            <li>
+              <a href="http://www.sukar.com/ae-en/contact-us/">Contact Us</a>
+            </li>
+
+            <li>
+              <a href="http://www.sukar.com/ae-ar/">العربية</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header-links large-12 columns">
+          <ul class="right">
+            <li>
+              <span class="express-truck">&nbsp;</span>
+              <span>EXPRESS DELIVERY!</span>
+            </li>
+            <li>
+              <span class="dollar-sign">$</span>
+              <span>Pay CASH on DELIVERY</span>
+            </li>
+            <li>
+              <span class="refresh-icon">&nbsp;</span>
+              <span class="text-upper">FREE RETURNS</span>
+            </li>
+          </ul>
+        </div>
+        <div class="header-links large-12 columns">
+          <ul class="right">
+            <li>
+              <a href="http://www.sukar.com/ae-en/cart/">
+                <span class="color-red marr-dot-3rem">My Cart</span>
+              </a>
+              <span id="cart-qty_full">1</span>
+              items
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="contain-to-grid">
+      <nav id="nav_strip" class="top-bar" data-topbar role="navigation">
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right hide-for-small-only">
+            <div class="search right">
+              <form id="searchForm" action="http://www.sukar.com/ae-en/search.php?st=search" method="get">
+                <input id="searchValue" type="text" name="s" class="search_text">
+                <span id="searcharrowMobile" class="search_arrow">&nbsp;</span>
+              </form>
+            </div>
+          </ul>
+          <!-- Left Nav Section -->
+          <ul id="" class="left hide-for-small-only">
+            <li> <i class="menu-pointer"></i>
+              <a href="#" data-dropdown="menu_dropdown_women" data-options="is_hover:true">Women</a>
+              <div id="menu_dropdown_women" data-dropdown-content class="f-dropdown content menu-dropdown">
+                <ul class="">
+                  <li class="menu-title">CURRENT SALES</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                </ul>
+                <ul class="">
+                  <li class="menu-title">CURRENT SALES</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                </ul>
+              </div>
+            </li>
+            <li> <i class="menu-pointer"></i>
+              <a href="#" data-dropdown="menu_dropdown_men" data-options="is_hover:true">Men</a>
+              <div id="menu_dropdown_men" data-dropdown-content class="f-dropdown content menu-dropdown">
+                <ul class="">
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                </ul>
+                <ul class="">
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <i class="menu-pointer"></i>
+              <a href="#" data-dropdown="menu_dropdown_home" data-options="is_hover:true">Home</a>
+              <div id="menu_dropdown_home" data-dropdown-content class="f-dropdown content menu-dropdown">
+                <ul class="">
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                </ul>
+                <ul class="">
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <i class="menu-pointer"></i>
+              <a href="#" data-dropdown="menu_dropdown_electronics" data-options="is_hover:true">Electronics</a>
+              <div id="menu_dropdown_electronics" data-dropdown-content class="f-dropdown content menu-dropdown">
+                <ul class="">
+                  <li class="menu-title">CURRENT SALES</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                </ul>
+                <ul class="">
+                  <li class="menu-title">CURRENT SALES</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <i class="menu-pointer"></i>
+              <a href="#" data-dropdown="menu_dropdown_blog" data-options="is_hover:true">Blog</a>
+              <div id="menu_dropdown_blog" data-dropdown-content class="f-dropdown content menu-dropdown">
+                <ul class="">
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                </ul>
+                <ul class="">
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                  <li>Women</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+</header>
+	<div class="panel">
+		<div class="row">
+			<div class="large-12 columns">
+				<h3>Sign in to Sukar</h3>
+				<label>Email address</label>
+				<input type="text" placeholder="">
+				<label>Password</label>
+				<input type="text" placeholder="">
+				<a href="#" class="button alert">Submit</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-6 columns">
+				<p>Forgot Password</p>
+			</div>
+			<div class="small-6 columns">
+				<p>Not a Member? Register</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+    <div class="row borb-1a">
+      <div class="large-3 columns">
+        <img src="http://cf3.sukarcdn.com/static/ltr/en/images/sukar/footerlogo.png" class="left" alt="footerlogo"></div>
+
+      <div class="large-5 columns text-center">
+        <p class="copyright">Sukar.com is part of Souq.com. ©2014 Sukar.com</p>
+      </div>
+
+      <div class="large-4 columns">
+        <a href="https://www.facebook.com/Sukar.UAE" rel="nofollow" target="_blank">
+          <div class="left social-icons fb"></div>
+        </a>
+        <a href="https://www.facebook.com/Sukar.UAE" rel="nofollow" target="_blank">
+          <div class="left social-icons fb"></div>
+        </a>
+        <a href="https://www.facebook.com/Sukar.UAE" rel="nofollow" target="_blank">
+          <div class="left social-icons fb"></div>
+        </a>
+        <a href="https://www.facebook.com/Sukar.UAE" rel="nofollow" target="_blank">
+          <div class="left social-icons fb"></div>
+        </a>
+        <a href="https://www.facebook.com/Sukar.UAE" rel="nofollow" target="_blank">
+          <div class="left social-icons fb"></div>
+        </a>
+      </div>
+    </div>
+    <div class="row padt-15">
+      <div class="show-for-medium-up medium-3 large-2 columns">
+        <ul class="">
+          <li> <strong>Events</strong>
+          </li>
+          <li></li>
+          <li>
+            <a href="http://www.sukar.com/ae-en/women-1/c/">Women</a>
+          </li>
+          <li>
+            <a href="http://www.sukar.com/ae-en/men-3/c/">Men</a>
+          </li>
+          <li>
+            <a href="http://www.sukar.com/ae-en/home-5996/c/">Home</a>
+          </li>
+          <li>
+            <a href="http://www.sukar.com/ae-en/electronics-5/c/">Electronics</a>
+          </li>
+
+          <li>
+            <a href="http://dailysugar.sukar.com/" target="_blank" class="selected">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="show-for-medium-up medium-3 large-2 columns">
+        <ul class="">
+          <li> <strong>Member Care</strong>
+          </li>
+          <li>
+            <a href="http://www.sukar.com/ae-en/contact-us/">Contact Us</a>
+          </li>
+          <li>
+            <a href="http://www.sukar.com/ae-en/return-policy/">Return Policy</a>
+          </li>
+          <li>
+            <a target="_blank" href="http://www.sukar.com/ae-en/size-guide/">Sizing Guide</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="show-for-medium-up medium-3 large-2 columns">
+        <ul class="">
+          <li>
+            <strong>My Account</strong>
+          </li>
+          <li>
+            <a class="login-required" href="http://www.sukar.com/ae-en/account/">Profile</a>
+          </li>
+          <li>
+            <a class="login-required" href="http://www.sukar.com/ae-en/account-orders/">Orders</a>
+          </li>
+          <!--<li>
+          <a class="login-required" href="http://www.sukar.com/ae-en/account-wait-list/">Wait List</a>
+        </li>
+        -->
+        <li>
+          <a class="login-required" href="http://www.sukar.com/ae-en/account-addresses/">Shipping Addresses</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="show-for-medium-up medium-3 large-2 columns">
+      <ul class="pad-20-large">
+        <li>
+          <strong>Sukar.com</strong>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/ae-en/about-us/">About Us</a>
+        </li>
+        <li>
+          <a href="http://jobs.souq.com/" target="_blank">Career</a>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/ae-en/terms/">Terms</a>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/ae-en/privacy/">Privacy</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="show-for-medium-up medium-3 large-2 columns">
+      <ul class="pad-25-large">
+        <li>
+          <strong>Top Categories</strong>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/watches/s/">Watches Online</a>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/sunglass/s/">Sunglasses Online</a>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/women-handbag/s/">Women’s Handbags</a>
+        </li>
+
+        <li>
+          <a href="http://www.sukar.com/shoes/s/">Shoes Online</a>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/sneakers/s/">Sneakers Online</a>
+        </li>
+      </ul>
+    </div>
+    <div class="show-for-medium-up medium-3 large-2 columns">
+      <ul class="pad-50-large">
+        <li>
+          <strong>Top Brands</strong>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/michael-kors/s/">Michael Kors</a>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/lacoste/s/">Lacoste</a>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/dkny/s/">DKNY</a>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/gucci/s/">Gucci</a>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/guess/s/">Guess</a>
+        </li>
+        <li>
+          <a href="http://www.sukar.com/ray--ban/s/">Ray-Ban</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</footer>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>$(document).foundation();</script>
+</body>
+</html>

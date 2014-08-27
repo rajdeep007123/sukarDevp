@@ -1,0 +1,160 @@
+/*Rajdeep's code here */
+.aboutUsBody{
+	color: #000000;
+	font-family: Arial;
+	font-size: 12px;
+	padding-bottom: 30px;
+	line-height: 23px;
+}
+.bodyText{
+
+	color:#000000;
+	font-family: Arial;
+	font-size: 12px;
+}
+.pageHeaders{
+	color:#3B3B3B;
+	font-family: Arial;
+	font-size: 20px;
+
+}
+input[type="text"].bodyText{
+	color:#000000;
+	font-family: Arial;
+	font-size: 12px;
+	-moz-box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #E0E0E0;
+	box-shadow: 0 3px 6px #EFEFEF inset;
+	color: #333;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.2;
+	padding: 7px 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 2.3225rem;
+
+}
+.onlyPaddingTop{
+	padding-top: 5px;
+}
+
+.onlyDropDownSelect{
+	height: 2.3225rem;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+
+textarea {
+	color:#000000;
+	font-family: Arial;
+	font-size: 12px;
+	-moz-box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #E0E0E0;
+	box-shadow: 0 3px 6px #EFEFEF inset;
+	color: #333;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.2;
+	padding: 7px 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 2.3225rem;
+	transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
+}
+.dropdown-wrapper{
+	filter: none;
+	background-image: -ms-linear-gradient(top,#fdfdfd 0,#f6f6f6 100%);
+	background-image: -moz-linear-gradient(top,#fdfdfd 0,#f6f6f6 100%);
+	background-image: -webkit-linear-gradient(top,#fdfdfd 0,#f6f6f6 100%);
+	background-image: -o-linear-gradient(top,#fdfdfd 0,#f6f6f6 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fdfdfd),color-stop(100%,#f6f6f6));
+	background-image: linear-gradient(top,#fdfdfd 0,#f6f6f6 100%);
+	height: 30px;
+	color: #333;
+	border: 1px solid #E0E0E0;
+	display: inline-block;
+	text-decoration: none;
+	outline: 0;
+	overflow: hidden;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	line-height: 18px;
+	width: 100%;
+	font-family: Arial;
+	-moz-box-sizing: border-box;
+	background-color: #fff;
+	border: 1px solid #E0E0E0;
+	color: #333;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.2;
+	padding: 10px 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 2.3225rem;
+	margin: 0 0 .5rem 0;
+}
+.dropdown-select{
+    left: 151px;
+	width: 306px;opacity: 0;
+	filter: alpha(opacity=0);
+	left: 0;
+	right: 0;
+	top: -15px;
+	bottom: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	line-height: 100%;
+	cursor: pointer;
+	-webkit-appearance: none;">
+}
+.dropdown-icon{
+	position: absolute;
+	right: 10px;
+	margin-top: 4px;
+	width: 9px;
+	height: 9px;
+	background: url(http://cf3.sukarcdn.com/static/ltr/en/images/sukar/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -101px 0px;
+	display: inline-block;
+}
+
+.button.button-small{
+	color: #000000;
+	border: 1px solid #E0E0E0;
+	background-image: -ms-linear-gradient(top,#fdfdfd 0,#d2d2d2 100%);
+	background-image: -moz-linear-gradient(top,#fdfdfd 0,#d2d2d2 100%);
+	background-image: -webkit-linear-gradient(top,#fdfdfd 0,#d2d2d2 100%);
+	background-image: -o-linear-gradient(top,#fdfdfd 0,#d2d2d2 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fdfdfd),color-stop(100%,#d2d2d2));
+	background-image: linear-gradient(top,#fdfdfd 0,#d2d2d2 100%);
+	height: 30px;
+	background-image: -ms-linear-gradient(top,#fdfdfd 0,#d2d2d2 100%);
+	background-image: -moz-linear-gradient(top,#fdfdfd 0,#d2d2d2 100%);
+	background-image: -webkit-linear-gradient(top,#fdfdfd 0,#d2d2d2 100%);
+	background-image: -o-linear-gradient(top,#fdfdfd 0,#d2d2d2 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fdfdfd),color-stop(100%,#d2d2d2));
+	background-image: linear-gradient(top,#fdfdfd 0,#d2d2d2 100%);
+	cursor: pointer;
+	border: 0;
+	font-family: Arial, Verdana, Geneva, sans-serif;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 16px;
+	padding-bottom: .5em;
+	padding-top: .7em;
+	border: 1px solid #E0E0E0;
+}
+.button.button-small:hover{
+	color: #999999;
+}
